@@ -1,0 +1,190 @@
+body {
+    background: #c2cdf0!important;
+    padding: 50px;
+    color: #3C3D3E;
+}
+
+.modal-body {
+    max-height: calc(100vh - 510px)!important;
+    overflow-y: scroll!important;
+}
+
+#logo {
+    display: block;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 30px;
+    z-index: 10;
+    width: 100%;
+
+}
+
+#skyline {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -55px;
+    width: 100%;
+    z-index: -10;
+}
+
+#nextButton {
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    border: solid #888888 2px;
+    border-radius: 10px;
+}
+
+#prevButton {
+    margin-right: 10px;
+    padding: 5px 15px 5px 15px;
+    border: solid #888888 2px;
+    border-radius: 10px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #919191!important;
+    font-size: 12px!important;
+}
+
+.subtitlePoint {
+    color: #ffffff!important;
+    font-size: 12px!important;
+    display: inline;
+    background: #adadad;
+    border-radius: 20px;
+    margin-right: 3px;
+    padding: 5px;
+}
+
+.fastLinks {
+    height: 500px;
+    ;
+    margin: -50px -50px -60px -50px;
+    padding: 50px 50px 70px 50px;
+}
+
+.gitlink,
+.gitlink:hover,
+.gitlink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.screenshots {
+    /*height: 500px;*/
+}
+
+.link {
+    display: inline-block;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.caption {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#branding {
+    margin-top: -4px;
+}
+
+#contact {
+    background: #EAE6EC;
+    border: 3px solid white;
+    z-index: 100;
+    margin-left: -50px;
+    position: fixed;
+    right: 0;
+    padding: 3px;
+    animation-delay: .3s;
+    display: inline;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 770px) {
+    #contact {
+        bottom: 0!important;
+        width: 100%;
+    }
+    #contact ul {
+        text-align: center;
+    }
+    #contact li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .screenshot {
+        display: none;
+    }
+    .screenshotTitle {
+        display: none;
+    }
+    #nextButton {
+        display: none;
+    }
+    #prevButton {
+  display: none;
+    }
+}
+
+@media screen and (min-width: 771px) {
+    #contact {
+        top: 0!important;
+    }
+    .screenshot {
+        display: inline;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .screenshotTitle {
+        display: inherit;
+    }
+}
+
+#contact li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.navbar-fixed {
+    top: 0!important;
+    z-index: 100;
+    position: fixed!important;
+    width: 100%!important;
+    padding-left: 50px!important;
+    margin-left: -50px!important;
+}
+
+#contact ul {
+    margin: 4px;
+    margin-left: -35px;
+}
+
+.img-responsive {
+    height: 275
+}
+
+.height {
+    height: 63px;
+}
+
+#navigation {
+    background: #EAE6EC;
+    border: 3px solid white;
+}
+
+.shadow {
+    -webkit-box-shadow: 7px 7px 31px -6px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 7px 7px 31px -6px rgba(0, 0, 0, 0.8);
+    box-shadow: 7px 7px 31px -6px rgba(0, 0, 0, 0.8)!important;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Brendan Kenny</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style/main.css" type="text/css" media="screen" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="screen" />
+<!--    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="scripts/myscript.js"></script>
+
+
+
+</head>
+
+<body>
+ 
+
+
+
+
+    <div class="fastLinks">
+        <img src="style/images/paSkyline.png" width="100%" id="skyline">
+        <div id="logo"><img src="style/images/logos/BKLogo2.svg" height="200px" class="animated bounceInLeft"></div>
+
+        <h1 class="cust">Hi, I'm Brendan Kenny.</h1>
+
+    </div>
+    <nav class="navbar navbar-default shadow" id="navigation">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#logo" id="branding"><img src="style/images/logos/BKLogo2.svg" height="30px"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#placeholder">Projects</a></li>
+                    <li><a href="#resume" onclick="loadResume()">Resumé</a></li>
+                    <li><a href="#about">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="placeholder"></div>
+    <br>
+    <div id="projects">
+        <h1 class="cust">Past Projects</h1>
+
+    </div>
+
+
+    <div class="row">
+        <div id="row1" class="animated fadeIn">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mconfessions.png" alt="...">
+                    <div class="caption">
+                        <h3>St. Augustine's Confessions</h3>
+                        <p>HTML, CSS, Javascript</p>
+                        <p><a href="https://itunes.apple.com/us/app/augustines-confessions/id1031371222?mt=8" class="btn btn-info" role="button" target="_blank">In App Store</a>
+                            <button class="btn btn-default" onclick="launchModal(1)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mgrowth.png" alt="...">
+                    <div class="caption">
+                        <h3>Growth</h3>
+                        <p>C#</p>
+                        <p><a href="https://github.com/BKenny11/Growth" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(2)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mchopchop.png" alt="...">
+                    <div class="caption">
+                        <h3>Chop Chop</h3>
+                        <p>Objective-C</p>
+                        <p><a href="https://github.com/BKenny11/ChopChop" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(3)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/minfotunes.png" alt="...">
+                    <div class="caption">
+                        <h3>InfoTunes</h3>
+                        <p>HTML, CSS, Javascript</p>
+                        <p><a href="https://github.com/BKenny11/InfoTunes" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(4)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mjustkeepswimming.png" alt="...">
+                    <div class="caption">
+                        <h3>Just Keep Swimming</h3>
+                        <p>HTML, CSS, Javascript</p>
+                        <p><a href="https://github.com/BKenny11/Just-Keep-Swimming" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(5)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mritmaps.png" alt="...">
+                    <div class="caption">
+                        <h3>RIT Maps</h3>
+                        <p>Objective-C</p>
+                        <p><a href="https://github.com/BKenny11/RIT-Maps" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(6)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mpayment.png" alt="...">
+                    <div class="caption">
+                        <h3>Payment Manager</h3>
+                        <p>HTML, CSS, Javascript</p>
+                        <p><a href="https://github.com/BKenny11/FinalWebApps" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(7)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mcountaday.png" alt="Android Tablet">
+                    <div class="caption">
+                        <h3>CountaDay</h3>
+                        <p>Java</p>
+                        <p><a href="https://github.com/BKenny11/DateCounter" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(8)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mtapvstap.png" alt="Android tablet">
+                    <div class="caption">
+                        <h3>TapVsTap</h3>
+                        <p>Java</p>
+                        <p><a href="https://github.com/BKenny11/Tap-vs-Tap" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(9)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail shadow">
+                    <img src="style/images/titlecards/mrockthisway.png" alt="Android tablet"> Coming Soon
+                    <div class="caption">
+                        <h3>Rock This Way</h3>
+                        <p>HTML, CSS, Javascript</p>
+                        <p><a href="https://github.com/nmteamproject/TestApp/tree/master/beacontest" class="btn btn-info" role="button" target="_blank">View Code</a>
+                            <button class="btn btn-default" onclick="launchModal(10)">View Full Description</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <h1 class="cust" id="about">About Who I Am</h1>
+    <br>
+    <div class="panel panel-info shadow">
+
+        <div class="panel-heading">Education</div>
+        <div class="panel-body">
+            I am persuing a major in New Media Interactive Development. I also have a minor in Business Administration and an immersion in Communications. My skills focus on front-end and mobile development. As such, I have experience in iOS, Android, HTML5, CSS3, Javascript, and other such languages.
+        </div>
+    </div>
+    <div class="panel panel-info shadow">
+        <div class="panel-heading">About me as a person</div>
+        <div class="panel-body">
+            I'm a student from the Philadelphia area currently studying at the Rochester Institute of Technology. Whenever I'm not coding you can usually find me either with friends or playing sports somewhere. Over the years I've tried almost every major sport, as well as captained flag football, soccer, and basketball intramural teams.
+        </div>
+    </div>
+    <br>
+    <h3 class="cust">What is New Media Interactive Development?</h3>
+    <div class="panel panel-info shadow">
+        <div class="panel-heading">How RIT defines it:</div>
+        <div class="panel-body">
+            A handy way to summarize "NMID" is reading it backwards: New Media Interactive Developers develop interactive media that is new. New media are ever-changing forms of digital communication that engage, immerse, and (often) entertain the users. Whereas “old media” involved newspapers, radio, and television, new media has adapted digital technology for the World Wide Web, social networks, wearable computing, and more. New Media development professionals develop and design software for these new media. IGM NMID students explore a multitude of creative and technical electives, including physical computing, interfaces, web, mobile, casual games, production, and more.
+        </div>
+    </div>
+    <div class="panel panel-info shadow">
+        <div class="panel-heading">What this means for your company:</div>
+        <div class="panel-body">
+            New Media Interactive Development is a major that focuses on bridging the gap of developers and designers. While the main focus of this major is on the developer side of things, all those who go through this major must also be versed in design and aesthetics. This helps to create a better work flow of workers who are both able to understand and engage with eachother on projects and ideas.
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <h1 class="cust">Resumé</h1>
+    <center>
+        <div id="resume">
+            <a href="#onlineResume">
+                <button type="button" class="btn btn-info" onclick="loadResume()" id="resumeButton">Show Resumé</button>
+            </a>
+            <a href="projects/Kenny_Brendan_NMID.pdf" download>
+                <button type="button" class="btn btn-default">Download Resumé</button>
+            </a>
+            <div id="onlineResume">
+
+            </div>
+        </div>
+    </center>
+
+    <div id="contact" class="animated slideInRight">
+        <ul>
+
+            <li>
+                <a href="mailto:bwk8958@rit.edu"><img src="style/images/icons/email.png" height="25px"></a>
+            </li>
+            <li><img src="style/images/icons/phone.png" height="25px" onclick=showNumber()></a>
+                <div id="number" class="hide">610-755-8420</div>
+            </li>
+            <li>
+                <a href="https://github.com/BKenny11" target="_blank"><img src="style/images/icons/github.png" height="25px"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/pub/brendan-kenny/81/7b5/373" target="_blank"><img src="style/images/icons/linkedin.png" height="25px"></a>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    <div id="modalSubLabel" class="subtitle">Project Includes:
+                        <div class="subtitlePoint">CSS</div>
+                        <div class="subtitlePoint">Javascript</div>
+                    </div>
+                </div>
+                <div id="modalScreenshots"></div>
+                <div class="modal-body" id="modalContent">
+
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="github"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

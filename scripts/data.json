@@ -1,0 +1,92 @@
+{
+    "project1": {
+        "title": "St. Augustine’s Confessions",
+        "languages": "HTML, Javascript, CSS, Angular-JS, Node.js",
+        "description":"Augustine’s Confessions is an app currently available for purchase in both the Android and Apple store in its’ first version. Villanova is a Catholic university based off the teachings of Saint Augustine, and as such, it is a required reading for all first-year undergraduates. Because of this, Villanova wanted to produce an app for their students that would not only give them the text at a lower rate, but also add to the overall experience with their own added content. Development started in June of 2015 and I worked on this over the summer as an internship. I had a hand in developing most of the pages in the app, as well as some content creation and formatting.",
+        "image":"portfolio/style/images/titlecards/mconfessions.png",
+        "github":"",
+        "color":"#ffcdc5"        
+    },
+
+    "project2": {
+        "title": "Growth",
+        "languages": "C#",
+        "description":"Growth is  a 2D puzzle platformer game that was built using C# in Unity. The premise of Growth is simple, utilize changing forms to help navigate levels, and collect items. There are three different forms to take, with each one having its own special ability, each of which is vital to the player’s progression. This was a team project for which I was the lead programmer. I was in charge of creating the majoring of the code as well as delegating to two other developers. Though not designated to the design team, I did produce some of the game assets as well.",
+        "image":"portfolio/style/images/titlecards/mgrowth.png",
+        "github":"https://github.com/BKenny11/Growth",
+        "color":"#BBFC95"
+    },
+    
+    "project3": {
+        "title": "Chop Chop",
+        "languages": "Objective-C",
+        "description":"Chop Chop is an iOS application built in xCode using Objective-C, while graphics were created using Photoshop and Illustrator. It is an API driven application that uses Yummly’s online data service. What this app accomplishes is combining a cookbook with a grocery list. Users type in a search query and have recipes from Yummly come up in the results. These results contain details such as ingredients, time to make, and instructions. Once a recipe is found, you can add the recipe to a “Favorites” category, as well as add the necessary ingredients to a shopping list. ",
+        "image":"portfolio/style/images/titlecards/mchopchop.png",
+        "github":"https://github.com/BKenny11/ChopChop",
+        "color":"#B7E79A"
+    },
+    
+    "project4": {
+        "title": "Info Tunes",
+        "languages": "HTML, Javascript, CSS",
+        "description":"InfoTunes is an API driven web application that focuses on music. It was built using basic HTML, CSS, and Javascript, and gets information from the Youtube, Echonest, and Lyricist API’s. Users put in a search for a song, and the website will return a link to the music video, artist information, and partial lyrics as well as a link to the full lyrics to the song. A challenge that was run into during development was copyright issues, which meant that full lyrics as well as the music video itself could not be displayed on the site. As of April 20th 2015 the Youtube API became depreciated, and therefore currently does not work, but plans to update the website are currently in the works.",
+        "image":"portfolio/style/images/titlecards/minfotunes.png",
+        "github":"https://github.com/BKenny11/InfoTunes",
+        "color":"#b0c4de"
+    },
+    
+    "project5": {
+        "title": "Just Keep Swimming",
+        "languages": "HTML, Javascript, CSS",
+        "description":" Just Keep Swimming is a Web game created using the HTML5 Canvas and Javascript. The goal is to eat as much fish food as you can without being eaten. The trick is that the more food you eat, the bigger you get, as well as the more sharks will come to get you. Players have the option of controlling the game difficulty from the opening menu, and your personal highscore is saved in local data . Image assets were  created in Photoshop, as well as the background sounds edited in Audacity.",
+        "image":"portfolio/style/images/titlecards/mjustkeepswimming.png",
+        "github":"https://github.com/BKenny11/Just-Keep-Swimming",
+        "color":"#b0c4de"
+    },
+    
+    "project6": {
+        "title": "RIT Maps",
+        "languages": "Objective-C",
+        "description":" RIT Maps is an iPad Application created in xCode using Objective-C. Information was provided about all the buildings of RIT, which was used to populate a MapView with different locations. Users can search for buildings to find their location on the map, as well as click on them to view more information on the building itself and an image of what it looks like from street view. This app helps those who would be new to campus locate around to different areas.",
+        "image":"portfolio/style/images/titlecards/mritmaps.png",
+        "github":"https://github.com/BKenny11/RIT-Maps",
+        "color":"#DDDDDD"
+    },
+    
+    "project7": {
+        "title": "Payment Manager",
+        "languages": "HTML, Javascript, CSS, Jade, Node.js",
+        "description":"Payment Manager is a web application made to help individuals keep track of their personal finances. This app was created using mainly Node.Js and Jade in order to help manage the different users’ accounts. Once an account is created, you can add different financial activity into the app to help keep track of both your current total money, as well as where all your money is coming and going. You can add an activity using one of the “Fast Access Payments” such as paying bills, receiving a paycheck, or paying off a credit card. If none of those fit what you are looking to do, there is also an option to create your own category at the top of the page. ",
+        "image":"portfolio/style/images/titlecards/mpayment.png",
+        "github":"https://github.com/BKenny11/FinalWebApps",
+        "color":"#b0c4de"
+    },
+    
+    "project8": {
+        "title": "DateCounter",
+        "languages": "Java",
+        "description":"DateCounter is a mobile application developed for the Android operating system, made in Android Studios using Java. This app was created to help people keep track of different events in their busy lives. Users can add events based off of dates, the app will tell you either how many days there are left until the event, or how many days since an event has taken placed. This separation of past and future events is done automatically depending on whether the date you put in is in the past or future in comparison to the current date. This could help users in situations such as telling how many days left someone has to buy a gift for a birthday, or saying how long its been since your last oil change.",
+        "image":"portfolio/style/images/titlecards/mcountaday.png",
+        "github":"https://github.com/BKenny11/DateCounter",
+        "color":"#b0c4de"
+    },
+    
+    "project9": {
+        "title": "Tap vs Tap",
+        "languages": "Java",
+        "description":"Tap vs Tap is two player, rhythm and pattern game designed for an Android tablet. This was made in Android Studios using Java, all graphics were created in Photoshop and Illustrator, and sound effects were created in Audacity. Players take turns firing arrows back and forth at each other, while the other has to tap the arrows in the same pattern and at the correct time. The best way to describe it would be to say it is a cross between Guitar Hero and Simon-Says. Users can also use three different power ups to try and gain an advantage before they lose all of their health due to mistakes. ",
+        "image":"portfolio/style/images/titlecards/mtapvstap.png",
+        "github":"https://github.com/BKenny11/Tap-vs-Tap",
+        "color":"#b0c4de"
+    },
+    
+    "project10": {
+        "title": "Rock This Way",
+        "languages": "iBeacon, HTML, Javascript, CSS",
+        "description":"Rock This Way is my senior project. Built in a team of 9, it is going to be displayed at Imagine RIT on May 7th. For this project we had the Rock and Roll Hall of Fame as our clients, so we set out to serve a need of their guests. We created the basis of a project that would allow guests to put in what they were interested in and trip details, and the app would create a custom route around the museum. While walking around the museum, users can participate in games within their groups based on their surroundings or simply gain more information about exhibits in their vicinity. We accomplished this using iBeacons which tell the app what to do based on which exhibit is closest to the user. ",
+        "image":"portfolio/style/images/titlecards/mrockthisway.png",
+        "github":"https://github.com/nmteamproject/TestApp/tree/master/beacontest",
+        "color":"#242629"
+    }
+
+}
